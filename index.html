@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieApp</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>MovieApp</h1>
+      <input type="text" id="searchInput" placeholder="Buscar película..." oninput="searchMovie()">
+    </header>
+
+    <div id="movieDetails" class="movie-details">
+      <!-- Los detalles de la película se mostrarán aquí -->
+    </div>
+    
+    <div id="movieList" class="movie-list">
+      <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
